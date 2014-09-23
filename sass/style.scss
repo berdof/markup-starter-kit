@@ -1,0 +1,29 @@
+*{
+  outline: 0;
+}
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/typography";
+@import "compass/utilities/sprites/base";
+@import "animation/core";
+
+@import "partials/variables";
+@import "partials/fonts";
+@import "partials/mixins";
+@import "partials/helpers";
+//@import "partials/sprites";
+//@import "partials/typography";
+
+@import "partials/icons";
+@import "partials/btn";
+
+@import "partials/header" ;
+@import "partials/content" ;
+@import "partials/footer" ;
+
+
+
+
+
+
+

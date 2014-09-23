@@ -1,0 +1,23 @@
+html{
+  color: #797f8b;
+  @include font-regular();
+}
+
+.center{
+  overflow: hidden;
+}
+
+.pull-left{
+  float: left !important;
+}
+.pull-right{
+  float: right !important;
+}
+
+.group:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+}

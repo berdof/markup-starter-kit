@@ -1,0 +1,17 @@
+*/images/sprite/*
+*/images/sprite-retina/*
+*/.idea
+*/META-INF/*
+*/.sass-cache
+*/.coffeescript-cache
+*/compass_app_log.txt
+*/fire_app_log.txt
+*.rb
+*.iml
+*/Gruntfile.js
+*/package.json
+*/node_modules/*
+*/sass/*
+*/views/*
+*.erb
+*.md

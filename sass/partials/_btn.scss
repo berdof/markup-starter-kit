@@ -1,0 +1,43 @@
+.btn{
+  display: inline-block;
+  width: 168px;
+  height: 38px;
+  line-height: 38px;
+  background: none;
+  border: 1px solid #63cdff;
+  border: 1px solid rgba(#63cdff,.5);
+  @include border-radius(20px);
+  @include background-clip(padding-box);
+  padding: 0 20px;
+  text-align: center;
+  color: #9ba3af;
+  font-size: em(11px);
+  text-transform: uppercase;
+  text-decoration: none !important;
+  cursor: pointer;
+  outline: none;
+  &:hover,
+  &:active,
+  &.active{
+    background: #68cfff;
+    border: 1px solid #68cfff;
+    color: #fff;
+  }
+}
+
+.btn-rect{
+  width: 38px;
+  padding: 0;
+  &:hover i{
+    color: #fff;
+  }
+  i{
+    font-size: 30px;
+    line-height: 38px;
+    height: 38px;
+    width: 100%;
+    text-align: center;
+    display: block;
+    color: #cdd1d7;
+  }
+}

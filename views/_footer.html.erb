@@ -1,0 +1,19 @@
+<footer class="footer">
+
+</footer>
+
+<!--<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>-->
+<% if ENV["RACK_ENV"] == "production" %>
+  <script src="js/all.min.js"></script>
+<% else %>
+  <script src="js/vendors/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="js/vendors/jquery.sticky.js"></script>
+  <script src="js/JnetApp.js"></script>
+
+<% end %>
+
+
+<%= livereload_js unless ENV["RACK_ENV"] == "production" %>
+</body>
+</html>
+

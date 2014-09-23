@@ -1,0 +1,43 @@
+a{
+  color: $linkColor;
+  text-decoration: none;
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
+strong{
+  @include font-bold();
+}
+
+h1{
+  @include font-light();
+  font-size: 45px;
+  line-height: 50px;
+  padding-bottom: 10px;
+  strong{
+    font-weight: 600;
+  }
+}
+
+h2{
+  @include font-light();
+  font-size: 40px;
+  line-height: 50px;
+  padding-bottom: 15px;
+  strong{
+    font-weight: 600;
+  }
+}
+
+h3{
+  strong{
+    font-weight: 600;
+  }
+}
+
+p{
+  @include font-light();
+  font-size: 20px;
+  line-height: 30px;
+}

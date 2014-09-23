@@ -1,0 +1,9 @@
+.sass-cache/*
+.coffeescript-cache/*
+.DS_Store
+.idea/
+trendkite.TODO
+compass_app_log.txt
+compass_app_log.txt
+/tmp
+fire_app_log.txt
